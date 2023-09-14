@@ -26,6 +26,7 @@ jobs:
   clj-holmes:
     name: Run clj-watson scanning
     runs-on: ubuntu-latest
+    environment: clj-watson
     permissions:
       contents: read
       security-events: write
